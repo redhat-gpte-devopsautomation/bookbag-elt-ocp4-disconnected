@@ -1,9 +1,5 @@
 ---
-name: Bookbag Template
+name: OpenShift UPI Offline AWS
 modules:
   activate:
-    - overview
-    - exercise1
-    - exercise2
-    - exercise3
-    - review
+    - OpenShift_UPI_Offline_AWS
