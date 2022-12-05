@@ -305,10 +305,12 @@ sudo chown -R $USER /opt/registry
 In a real environment, you would skip this step since you would get your certificate from a legitimate certificate authority.
 +
 ====
-WARNING: Please note Openshift 4.11 uses go1.18 which involves deprecating Legacy Common Name certificates in favour of SAN Certificates (subjectAltName). If you create a non SAN cert, `oc adm mirror` will fail. 
+WARNING: Please note Openshift 4.11 uses go1.18 which involves deprecating Legacy Common Name certificates in favour of SAN Certificates. If you create a non SAN cert, `oc adm mirror` will fail. 
 
 link:https://access.redhat.com/solutions/4870701[What version of the Kubernetes API is included with each OpenShift 4.x release?^]
+
 link:https://access.redhat.com/solutions/6411021[What Go/Golang version is used in Red Hat OpenShift Container Platform (RHOCP)?^]
+
 link:https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.24.md[Red Hat OpenShift Container Platform 4.11 have Kubernetes 1.24 version (CHANGELOG-1.24.md)^]
 
 *Updating Golang Certificate Libraries*
